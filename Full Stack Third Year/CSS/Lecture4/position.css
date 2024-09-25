@@ -1,0 +1,64 @@
+#relative{
+  border: 2px solid red;
+  padding: 10px;
+}
+
+#relative>div{
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#relative>div:nth-of-type(2){
+  background-color: violet;
+  position: relative;
+  top: 10px;
+  bottom: 20px;
+  left: 50px;
+  right: 50px;
+}
+
+#absolute{
+  border: 2px solid purple;
+  height: 300px;
+  padding: 10px;
+  position: relative;
+}
+
+#absolute>div{
+  border: 2px solid rgb(0, 128, 111);
+  height: 200px;
+  padding: 10px;
+  position: relative;
+}
+
+#absolute>div>div{
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#absolute>div>div:nth-of-type(2){
+  background-color: aqua;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#fixed>div:nth-of-type(3){
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: fixed;
+  top: 10px;
+  right: 0;
+}
+
+#sticky>p{
+  background-color: aquamarine;
+  position: sticky;
+  top: 5px;
+}
