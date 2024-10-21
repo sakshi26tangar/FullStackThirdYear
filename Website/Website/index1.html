@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigneto Vineyard & Wine Tasting Experience</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            height: 100%;
+            background-color: #f5f5f5;
+        }
+        
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: white;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .logo h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin: 0;
+        }
+        .logo p {
+            font-size: 12px;
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        /* Existing Wine Tasting Section */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .title {
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .headline {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #b59a4c;
+            margin-bottom: 40px;
+        }
+        .text-box {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666666;
+        }
+        .text-box div {
+            width: 45%;
+        }
+
+        /* Other styles remain unchanged... */
+
+        /* New Hero Section Styles */
+        .hero-section {
+            background-image: url('https://placehold.co/1920x500');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .hero-content h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero-content .underline {
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: yellow;
+            margin: 10px auto 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img alt="Vigneto logo" src="https://storage.googleapis.com/a1aa/image/mwdbcfopKtSxYqUWKse2trnYBUJqZsVnOnfWvgmSe9D1M1jOB.jpg">
+            <div>
+                <h1>Vigneto</h1>
+                <p>Vineyard & Estate Winery</p>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">EVENTS</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Wine Tasting Experience Section -->
+    <div class="container">
+        <div class="title">WINE TASTING EXPERIENCE</div>
+        <div class="headline">Every Empty Bottle Is Filled With A Story</div>
+        <div class="text-box">
+            <div>
+                <p>At Vigneto, we take pride in providing you with a unique wine-tasting experience. Our wines are crafted with care, reflecting the terroir of our vineyards. Each sip tells a story of passion, tradition, and the artistry of winemaking.</p>
+            </div>
+            <div>
+                <p>Whether you're a connoisseur or new to the world of wine, our knowledgeable staff will guide you through a selection of our finest wines. Join us and create your own story with every pour.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Section -->
+    <div class="background">
+        <div class="content">
+            <div class="location">THE FINEST WINES, HANDPICKED FOR YOU</div>
+            <h2 class="title-big">Wine Pairs Nicely With Good Friends</h2>
+            <div class="button">
+                <a href="#">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adventure Section -->
+    <div class="adventure-container">
+        <div class="left">
+            <h3>About</h3>
+            <h2>Adventure Is The Best Way To Learn Something New</h2>
+        </div>
+        <div class="right">
+            <p>I’m a text box. Double click me to edit the text or to change the way I look. You can change the font, size, color, and so much more. For advanced styling options, click on “more” located on the right-hand side of the text editing menu.</p>
+            <p>Click once to move me or to bring up the resize handles and Squeegee Tool. The resize handles allow you to make me any size you want.</p>
+            <p>I’m a text box. Double click me to edit the text or to change the way I look. You can change the font, size, color, and so much more.</p>
+        </div>
+    </div>
+
+    <!-- Wine & Adventure Section -->
+    <div class="new-container">
+        <div class="new-left">
+            <img alt="A table set with wine glasses and plates in a wine cellar" src="https://storage.googleapis.com/a1aa/image/dHhbeGspx71zMydO9ACCRzrs5f3vWUyGzTzrersJQVSO27RnA.jpg" />
+        </div>
+        <div class="new-right">
+            <h2>WINE TASTINGS</h2>
+            <h1>Book Your Next Adventure</h1>
+            <p>I'm a text block. Double click the text to edit or change the way I look.</p>
+            <a class="btn" href="#">BOOK A TOUR</a>
+        </div>
+        <div class="new-left events">
+            <h2>Our Events</h2>
+            <div class="event-item">
+                <img alt="Close-up of grapes on a vine" src="https://storage.googleapis.com/a1aa/image/2vOlPTQ6gS5fFCldTXnIiVMmBYZ9RDJOMftacN5z6hjN79oTA.jpg" />
+                <div>
+                    <h3>Visit Wine Country</h3>
+                    <p>I'm a text block. Double click the text to edit or change the way I look.</p>
+                </div>
+            </div>
+            <div class="event-item">
+                <img alt="Wine glasses and bottles on a table" src="https://storage.googleapis.com/a1aa/image/DDRU6Wtm4T5eRKvzQ54K338phNUWU9df8gwJYHWyAmIK79oTA.jpg" />
+                <div>
+                    <h3>Wine Events</h3>
+                    <p>I'm a text block. Double click the text to edit or change the way I look.</p>
+                </div>
+            </div>
+        </div>
+        <div class="new-right">
+            <img alt="A scenic view of a vineyard with mountains in the background" src="https://storage.googleapis.com/a1aa/image/ygXMzn4yjG5KOJe0h4iIWaBeJyDyUwnfwIW4FhTX7lf8r3jOB.jpg" />
+        </div>
+    </div>
+
+    <!-- New Hero Section at the End -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>A New Adventure Awaits</h1>
+            <span class="underline"></span>
+            <p>Experience the beauty of our vineyards and taste the exquisite wines crafted with passion.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="logo">Vigneto</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fas fa-wine-glass-alt"></i></a>
+        </div>
+        <div class="copyright">
+            © Your business name. All rights reserved.
+        </div>
+        <div class="credits">
+            Crafted with love by Your Name
+        </div>
+    </div>
+
+</body>
+</html>
